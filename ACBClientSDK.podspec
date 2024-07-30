@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.license      = { :type => "Commercial", :text => "Copyright (c) 2024. All rights reserved." }
     s.author       = { "cbajapan" => "support@example.com" }
     s.platform     = :ios, "13.0"
-    s.source       = { :http => "https://raw.githubusercontent.com/firofame/ACBClientSDK/main/ACBClientSDK-3.4.6.xcframework.zip" }
+    s.source       = { :http => "https://github.com/firofame/ACBClientSDK/releases/download/3.4.6/ACBClientSDK-3.4.6.xcframework.zip" }
     s.vendored_frameworks = "ACBClientSDK.xcframework"
     s.preserve_paths = "ACBClientSDK.xcframework"
   end
